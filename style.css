@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap?family=IM+Fell+Double+Pica+SC&display=swap");
+
+/*Navegation*/
+#navegation {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "IM Fell Double Pica SC", serif;
+}
+
+/* Primeira parte  */
+.container-one {
+  background-image: url("images/relogio.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+.main-content {
+  text-shadow: rgb(29, 32, 27) 0.1rem 0.1rem 0.2rem;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 10vw;
+}
+.main-content p {
+  font-family: "IM Fell Double Pica SC", serif;
+  color: #fdfffc;
+  font-size: 70px;
+}
+
+/* Segunda parte  */
+.container-two {
+  display: flex;
+  padding-top: 5%;
+  height: 70vh;
+  width: 100%;
+  justify-content: space-around;
+  background: linear-gradient(-0.2turn, #adb5bd, #f8f9fa);
+}
+.container-two p {
+  font-family: "IM Fell Double Pica SC", serif;
+  font-size: 40px;
+  color: #000000;
+}
+#number-description {
+  font-family: "IBM Plex Sans";
+  text-align: center;
+  text-decoration: underline;
+  font-size: 80px;
+  color: #000000;
+}
+
+/* Terceira parte  */
+.container-three {
+  display: flex;
+  height: 90vh;
+  padding-top: 2%;
+  width: 100%;
+  background-image: url("images/workspace.jpg");
+}
+#content-description {
+  padding-top: 2vw;
+  padding-left: 10vw;
+  width: 65%;
+}
+#content-description p {
+  text-align: justify;
+  font-family: "IM Fell Double Pica SC", serif;
+  color: black;
+  font-size: 30px;
+}
+
+/*Quarta parte*/
+.container-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#comment-description {
+  font-size: 40px;
+}
+.container-four img {
+  width: 200px;
+  height: 200px;
+}
+.container-four p {
+  font-family: "IM FELL Double Pica SC";
+  font-style: normal;
+  font-size: 25px;
+
+  color: #000000;
+}
+#man-one {
+  display: flex;
+  width: 60%;
+  border: 10px;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+#man-two {
+  display: flex;
+  width: 60%;
+  border: 10px;
+  align-items: center;
+}
+#woman-one {
+  display: flex;
+  width: 60%;
+  border: 10px;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/*Quinta parte*/
+.container-five {
+  display: flex;
+  width: 1503.2;
+  height: 600px;
+  background-image: url("images/arquitetura.jpg");
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#main-description {
+  font-family: "Bentham";
+  font-size: 60px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+#secondary-description {
+  font-family: "Bentham";
+  font-size: 40px;
+  color: #ffffff;
+}
+.container-five button {
+  font-size: 30px;
+  background-color: #2196f3;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.5s ease;
+}
+.container-five button:hover {
+  color: #000000;
+  background-color: #b5e48c;
+}
