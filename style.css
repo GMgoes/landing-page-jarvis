@@ -56,17 +56,14 @@
   padding-top: 2%;
   width: 100%;
   background-image: url("images/workspace.jpg");
-}
-#content-description {
-  padding-top: 2vw;
-  padding-left: 10vw;
-  width: 65%;
+  align-items: center;
+  justify-content: center;
 }
 #content-description p {
   text-align: justify;
   font-family: "IM Fell Double Pica SC", serif;
   color: black;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 /*Quarta parte*/
@@ -86,7 +83,6 @@
   font-family: "IM FELL Double Pica SC";
   font-style: normal;
   font-size: 25px;
-
   color: #000000;
 }
 #man-one {
@@ -113,6 +109,7 @@
 
 /*Quinta parte*/
 .container-five {
+  margin-top: 2%;
   display: flex;
   width: 1503.2;
   height: 600px;
@@ -150,4 +147,34 @@
 .container-five button:hover {
   color: #000000;
   background-color: #b5e48c;
+}
+
+/* Sexta Parte */
+#section-six {
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+.container-six {
+  display: flex;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.call-action-description {
+  display: flex;
+  font-family: "IM FELL Double Pica SC";
+  font-style: normal;
+  font-size: 40px;
+  color: #000000;
+  justify-content: center;
+}
+#image-downloads {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
 }
